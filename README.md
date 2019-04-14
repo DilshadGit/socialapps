@@ -40,6 +40,8 @@ must be str, not list
 
 #### I assume the issue related to social_app on developer.facebook.com I created.
 
+#### Using Anaconda > Autoformat PEP8 Errors to format automatically the codes.
+
 
 
 
