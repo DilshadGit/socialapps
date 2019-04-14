@@ -1,0 +1,28 @@
+Django==2.2
+  - pytz [required: Any, installed: 2019.1]
+  - sqlparse [required: Any, installed: 0.3.0]
+pipdeptree==0.13.2
+  - pip [required: >=6.0.0, installed: 19.0.3]
+setuptools==41.0.0
+social-auth-app-django==3.1.0
+  - six [required: Any, installed: 1.12.0]
+  - social-auth-core [required: >=1.2.0, installed: 3.1.0]
+    - defusedxml [required: >=0.5.0rc1, installed: 0.5.0]
+    - oauthlib [required: >=1.0.3, installed: 3.0.1]
+    - PyJWT [required: >=1.4.0, installed: 1.7.1]
+    - python3-openid [required: >=3.0.10, installed: 3.1.0]
+      - defusedxml [required: Any, installed: 0.5.0]
+    - requests [required: >=2.9.1, installed: 2.21.0]
+      - certifi [required: >=2017.4.17, installed: 2019.3.9]
+      - chardet [required: >=3.0.2,<3.1.0, installed: 3.0.4]
+      - idna [required: >=2.5,<2.9, installed: 2.8]
+      - urllib3 [required: >=1.21.1,<1.25, installed: 1.24.1]
+    - requests-oauthlib [required: >=0.6.1, installed: 1.2.0]
+      - oauthlib [required: >=3.0.0, installed: 3.0.1]
+      - requests [required: >=2.0.0, installed: 2.21.0]
+        - certifi [required: >=2017.4.17, installed: 2019.3.9]
+        - chardet [required: >=3.0.2,<3.1.0, installed: 3.0.4]
+        - idna [required: >=2.5,<2.9, installed: 2.8]
+        - urllib3 [required: >=1.21.1,<1.25, installed: 1.24.1]
+    - six [required: >=1.10.0, installed: 1.12.0]
+wheel==0.33.1
