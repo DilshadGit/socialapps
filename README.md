@@ -37,6 +37,7 @@
 ## Adding SOCIAL_AUTH_FACEBOOK_SCOPE display a bug need to fixed line 119 in the settings
 TypeError at /social-auth/login/facebook/
 must be str, not list
+Reference: https://python-social-auth-docs.readthedocs.io/en/latest/backends/facebook.html
 
 #### I assume the issue related to social_app on developer.facebook.com I created.
 
