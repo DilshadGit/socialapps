@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %} Sign in {% endblock %}
+
+{% block style %}
+<style type="text/css" media="screen">
+	button.a {
+	   color: #fff;
+	   background-color: #007bff
+	}
+</style>
+
+{% endblock style %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 mx-auto social-container my-2 order-md-1">
+        <h3 class="text-center">Please login with one of the following</h3>
+        
+        <br>
+        <button class="btn btn-primary mb-3 btn-inlineblock">
+            <a href="{% url 'social:begin' 'facebook' %}">Facebook
+            </a>
+        </button>
+        <br>
+       
+    </div>
+</div>
+</div>
+{% endblock %}
